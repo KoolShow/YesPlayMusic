@@ -194,12 +194,8 @@ class Background {
         enableRemoteModule: true,
         contextIsolation: false,
       },
-      backgroundColor:
-        ((appearance === undefined || appearance === 'auto') &&
-          nativeTheme.shouldUseDarkColors) ||
-        appearance === 'dark'
-          ? '#222'
-          : '#fff',
+      backgroundColor: '#00000000',
+      backgroundMaterial: 'mica',
     };
 
     if (this.store.get('window.x') && this.store.get('window.y')) {
