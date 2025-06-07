@@ -2,7 +2,6 @@
 import {
   app,
   protocol,
-  BrowserWindow,
   shell,
   dialog,
   globalShortcut,
@@ -17,6 +16,7 @@ import {
   isCreateTray,
   isCreateMpris,
 } from '@/utils/platform';
+import { BrowserWindow } from 'electron-acrylic-window';
 import { createProtocol } from 'vue-cli-plugin-electron-builder/lib';
 import { startNeteaseMusicApi } from './electron/services';
 import { initIpcMain } from './electron/ipcMain.js';
