@@ -195,7 +195,7 @@ class Background {
         contextIsolation: false,
       },
       backgroundColor: "#00000000",
-      vibrancy: {}
+      vibrancy: 'appearance-based'
     };
 
     if (this.store.get('window.x') && this.store.get('window.y')) {
