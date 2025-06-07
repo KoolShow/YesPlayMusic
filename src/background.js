@@ -195,6 +195,7 @@ class Background {
         contextIsolation: false,
       },
       backgroundColor: "#00000000",
+      transparent: true,
       vibrancy: 'appearance-based'
     };
 
